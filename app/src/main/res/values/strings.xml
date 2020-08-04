@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Face2Face</string>
+    <string name="welcome_to">Welcome To</string>
+    <string name="video_meeting_conference_app">Video Meeting | Conference App</string>
+    <string name="sign_in_to_your_account">Sign in to your account</string>
+    <string name="email">Email</string>
+    <string name="you_example_com">you@example.com</string>
+    <string name="password">Password</string>
+    <string name="pasword_hint">• • • • • • •</string>
+    <string name="sign_in">Sign in</string>
+    <string name="don_t_have_an_account">Don\'t have an account ?</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="we_need_a_few_details_to_get_your_account_ready">we need a few details to get your account ready</string>
+    <string name="john">john</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="mathew">mathew</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="already_have_an_account">Already have an account</string>
+    <string name="incoming_meeting_invitation">Incoming Meeting Invitation</string>
+    <string name="outgoing_meeting_invitation">Outgoing Meeting Invitation</string>
+</resources>
