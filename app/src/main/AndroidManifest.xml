@@ -14,8 +14,10 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true"
         tools:targetApi="m">
-        <activity android:name=".activities.OutgoingInvitationActivity"></activity>
-        <activity android:name=".activities.IncomingInvitationActivity" />
+        <activity android:name=".activities.OutgoingInvitationActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".activities.IncomingInvitationActivity"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".activities.SignupActivity"
             android:screenOrientation="portrait"

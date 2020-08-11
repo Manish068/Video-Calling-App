@@ -13,10 +13,10 @@
         android:layout_height="@dimen/_30sdp"
         android:layout_marginTop="@dimen/_50sdp"
         android:contentDescription="@string/app_name"
-        android:tint="@color/colorTextIcons"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"/>
+        app:layout_constraintStart_toStartOf="parent"
+        app:tint="@color/colorTextIcons" />
 
     <TextView
         android:id="@+id/textIncomingMeetingInvitation"
@@ -85,9 +85,9 @@
         android:contentDescription="@string/app_name"
         android:padding="@dimen/_8sdp"
         android:src="@drawable/ic_accept"
-        android:tint="@color/colorTextIcons"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"/>
+        app:layout_constraintStart_toStartOf="parent"
+        app:tint="@color/colorTextIcons" />
 
     <ImageView
         android:id="@+id/imageRejectInvitation"
@@ -99,9 +99,9 @@
         android:contentDescription="@string/app_name"
         android:padding="@dimen/_8sdp"
         android:src="@drawable/ic_reject"
-        android:tint="@color/colorTextIcons"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:tint="@color/colorTextIcons" />
 
 
 

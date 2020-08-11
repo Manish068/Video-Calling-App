@@ -29,18 +29,19 @@ android {
 
 dependencies {
     implementation fileTree(dir: "libs", include: ["*.jar"])
-    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'androidx.appcompat:appcompat:1.2.0'
     implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
 
 
-    implementation 'com.google.firebase:firebase-messaging:20.2.3'
+    implementation 'com.google.firebase:firebase-messaging:20.2.4'
     implementation 'com.google.firebase:firebase-firestore:21.5.0'
+   implementation 'com.google.android.gms:play-services-gcm:17.0.0'
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
 
 
-    // Scalabe\le size Unit (support for different screen size)
+    // Scallable size Unit (support for different screen size)
     implementation 'com.intuit.sdp:sdp-android:1.0.6'
     implementation 'com.intuit.ssp:ssp-android:1.0.6'
 
@@ -48,7 +49,7 @@ dependencies {
     implementation 'androidx.recyclerview:recyclerview:1.1.0'
 
     //MaterialDesign
-    implementation 'com.google.android.material:material:1.3.0-alpha01'
+    implementation 'com.google.android.material:material:1.3.0-alpha02'
 
     //MultiDex
     implementation 'com.android.support:multidex:1.0.3'
