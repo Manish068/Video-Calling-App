@@ -34,6 +34,7 @@ public class Constants {
     public static final String REMOTE_MSG_INVITATION_REJECTED= "rejected";
     public static final String REMOTE_MSG_INVITATION_CANCELLED= "cancelled";
 
+    public static final String REMOTE_MSG_MEETING_ROOM= "meetingRoom";
 
     public static HashMap<String, String> getRemoteMessageHeaders(){
         HashMap<String, String> headers = new HashMap<>();
